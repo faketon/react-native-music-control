@@ -104,7 +104,7 @@ public class MusicControlNotification {
         builder.setDeleteIntent(PendingIntent.getBroadcast(context, 0, remove, PendingIntent.FLAG_UPDATE_CURRENT));
 
         // Finally show/update the notification
-        NotificationManagerCompat.from(context).notify("MusicControl", 0, builder.build());
+//         NotificationManagerCompat.from(context).notify("MusicControl", 0, builder.build());
     }
 
     public void hide() {
